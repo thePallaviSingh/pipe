@@ -1,0 +1,9 @@
+<p>parent works!</p>
+
+<div *ngFor="let item of NumberArray">
+  substarction of {{ item.num1 }} and {{ item.num2 }} is
+  {{ item.num1 | substraction : item.num2 }}
+</div>
+
+<!-- <button (click)="_nextpage()">Next Page</button>
+<a [routerLink]="['child']"> </a> -->

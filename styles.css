@@ -1,0 +1,11 @@
+/* Add application styles & imports to this file! */
+
+body {
+  padding: 20px;
+}
+
+pre {
+  background: lightgray;
+  padding: 10px;
+  border-radius: 10px;
+}
